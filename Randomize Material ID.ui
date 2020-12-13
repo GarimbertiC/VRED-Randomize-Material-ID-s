@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+	<class>RandomizeMaterialIDGUI</class>
+	<widget class="QWidget" name="vrPrepareForInteractiveGUI">
+		<property name="geometry">
+			<rect>
+				<x>0</x>
+				<y>0</y>
+				<width>400</width>
+				<height>200</height>
+			</rect>
+		</property>
+		<property name="windowTitle">
+			<string>Randomize Material ID</string>
+		</property>
+		<property name="group" stdset="0">
+			<string>Scripts</string>
+		</property>
+		<layout class="QGridLayout" name="gridLayout">
+			
+			<item row="0" column="0">
+				<widget class="QPushButton" name="_Randomize_Material_ID">
+					<property name="text">
+						<string>Randomize</string>
+					</property>
+					<property name="toolTip">
+						<string>Randomize Material ID on alla materials</string>
+					</property>
+				</widget>
+			</item>
+			
+		</layout>
+	</widget>
+	<resources/>
+	<connections/>
+</ui>
